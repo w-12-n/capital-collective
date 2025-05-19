@@ -1,0 +1,142 @@
+body {
+    background-color: #000000;
+}
+
+.hero-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+    margin-bottom: 30px;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    background-image: url('../images/hero-image.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+
+.hero-text h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.navbar-custom {
+    background-color: #000;          /* solid black background */
+    padding-top: 2rem;
+  }
+
+  .navbar-custom .navbar-brand {
+    color: #fff !important;          /* white logo/text */
+    font-size: 1.75rem;
+  }
+
+  .navbar-custom .nav-link {
+    color: #ccc !important;          /* light gray links */
+  }
+
+  .navbar-custom .nav-link:hover,
+  .navbar-custom .nav-link:focus {
+    color: #fff !important;          /* on hover/focus, turn white */
+  }
+
+  .about-section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left:15rem; /* Add padding around the form */
+    padding-right:15rem; /* Add padding around the form */
+    border-radius: 0px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%;
+    color: #fff;
+  }
+
+  .about-section p {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+  }
+
+  .application-form-section {
+    background-color: white; /* White background for the application form */
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left:15rem; /* Add padding around the form */
+    padding-right:15rem; /* Add padding around the form */
+    border-radius: 0px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%
+}
+
+.form-floating {
+    margin-bottom: 1.5rem; /* Space between form fields */
+}
+
+.company-info-title {
+    margin-top: 5rem;
+}
+
+.form-label {
+    font-size: 1.25rem;
+}
+
+.submit-btn {
+    margin-top: 3rem;
+    border: 1px solid #000;
+    border-radius: 30px;
+    color: #000;
+    background-color:#fff;
+}
+
+.submit-btn:hover {
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
